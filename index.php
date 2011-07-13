@@ -4,9 +4,9 @@
 	$sauce = new SrcRelease();
 	
 	function linkButton($target,$text) {
-		echo '<div class="link"><a href="'.$target.'"><div id="shiny-demo-4" class="demo-button floater">
+		echo '<div class="link"><a href="'.$target.'"><span class="shiny-demo-4 demo-button floater">
 				'.$text.'
-			</div></a></div>';
+			</span></a></div>';
 	}
 ?>
 <?php echo '<?xml version="1.0" encoding="UTF-8" ?>' ?>
@@ -34,23 +34,23 @@
 		<div id='downloads_wrapper'>
 			<div class='download'>
 				<a href="<?php echo $win->link();?>" >
-				<div id="shiny-demo-1" class="demo-button">
+				<span class="shiny-demo-1 demo-button">
 					<img alt="Windows Download" src="/landing/dl.png" ></img>Get <?php echo $win->version;?> for Windows
-				</div> 
+				</span> 
 				</a>
 			</div>
 			<div class='download'>
 				<a href="<?php echo $sauce->link();?>" >
-				<div id="shiny-demo-3" class="demo-button">
+				<span class="shiny-demo-3 demo-button">
 					<img alt="Source Download" src="/landing/dl.png" ></img>Get <?php echo $sauce->version;?> source
-				</div> 
+				</span> 
 				</a>
 			</div>
 			<div class='download'>
 				<a href="http://projects.springlobby.info/projects/springlobby/wiki/Install" >
-				<div id="shiny-demo-2" class="demo-button">
+				<span class="shiny-demo-2 demo-button">
 					<img alt="Linux Packages" src="/landing/info.png" ></img>Linux packages
-				</div> 
+				</span> 
 				</a>
 			</div>
 		</div>
@@ -103,10 +103,9 @@
 		</div>
 		<br/>
 		<div id='badges'>
-			<center>
+<!-- 			<center> -->
 				<script type="text/javascript" src="http://www.ohloh.net/p/11953/widgets/project_partner_badge.js"></script>
-
-			</center>
+<!-- 			</center> -->
 		</div>
 	</div>
 
