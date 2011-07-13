@@ -1,0 +1,163 @@
+body {
+/* 	background: url('/landing/bg.png') repeat-x white fixed; */
+	min-height: 500px;
+	max-width: 900px;
+	min-width: 500px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#header {
+	background:#ccc;
+	color:#505050;
+	text-align: center;
+	border-color:#999;
+	background-color:rgba(128,128,128,0.75);
+	background-image:-webkit-gradient(linear, 0% 0%, 0% 90%, from(rgba(64,64,64,0.75)), to(rgba(192,192,192,0.9)));
+	background-image:-moz-linear-gradient(top,bottom,from(rgba(64,64,64,0.75)), to(rgba(192,192,192,0.9)));
+	-khtml-box-shadow:rgba(192,192,192,0.75) 0px 8px 24px;
+	-moz-box-shadow:rgba(192,192,192,0.75) 0px 8px 24px;
+	box-shadow:rgba(192,192,192,0.75) 0px 8px 24px;}
+	
+#header h1 {
+	text-shadow: -1px -1px 0px #202020, 1px 1px 0px #fff;
+	font-variant:small-caps;
+	font-size: 350%;
+}
+
+#main {
+	
+}
+
+#description {
+}
+
+#downloads_wrapper{
+	float:right;
+	padding-left:20px;
+	padding-bottom:20px;
+	margin-right: 0px;
+}
+.download {
+	margin-bottom: 30px;
+}
+.download a, .link a{
+	text-decoration: none;
+}
+.download img{
+	float:left;
+}
+.link {
+	float:left;
+	display:inline;
+	padding: 15px;
+}
+.demo-button img {
+	border:none;
+}
+
+#screenshots img { 
+	padding: 10px;
+	border: none;
+	}
+	/*
+	 	NOTE - The CSS here is very verbose, and could probably be cleaned up a lot
+	    (eg., hover states only modifying color and so on.) Verbosity was chosen so
+		code could be moved around independently in blocks - at least, in theory.
+	*/
+ 
+	.demo-button {
+		position:relative;
+		display:inline-block;
+/* 		width:8em; */
+		padding:0.25em 0.5em 0.3em 0.5em;
+		text-align:center;
+		cursor:pointer;
+		border:2px solid #999;
+                background-color:#666;
+		background-color:rgba(128,128,128,0.75);
+	    -moz-border-radius:16px;
+	    -webkit-border-radius:16px;
+	    -opera-border-radius:16px;
+	    -khtml-border-radius:16px;
+	    border-radius:16px;
+		font-size:1.5em;
+		color:#fff;
+		font-weight:bold;
+		text-shadow:1px 1px 3px rgba(0,0,0,0.5);
+		background-image:-webkit-gradient(linear, 0% 0%, 0% 90%, from(rgba(64,64,64,0.75)), to(rgba(192,192,192,0.9)));
+		background-image:-moz-linear-gradient(top,bottom,from(rgba(64,64,64,0.75)), to(rgba(192,192,192,0.9)));
+		-khtml-box-shadow:rgba(192,192,192,0.75) 0px 8px 24px;
+		-moz-box-shadow:rgba(192,192,192,0.75) 0px 8px 24px;
+		box-shadow:rgba(192,192,192,0.75) 0px 8px 24px;
+	}
+	.demo-button span {
+		position:absolute;
+		display:block;
+		width:94%;
+		left:3.5%;
+		top:0px;
+		height:50%;
+		-webkit-border-radius:8px;
+		-moz-border-radius:8px;
+		background-color:rgba(255,255,255,0.25);
+		background-image:-webkit-gradient(linear, 0% 0%, 0% 100%, from(rgba(255,255,255,0.75)), to(rgba(255,255,255,0)));
+		background-image:-moz-linear-gradient(top,bottom,from(rgba(255,255,255,0.75)), to(rgba(255,255,255,0)));		
+	}
+ 
+	#shiny-demo-1 {
+		border-color:#999;
+		background-color:rgba(128,128,128,0.75);
+		background-image:-webkit-gradient(linear, 0% 0%, 0% 90%, from(rgba(64,64,64,0.75)), to(rgba(192,192,192,0.9)));
+		background-image:-moz-linear-gradient(top,bottom,from(rgba(64,64,64,0.75)), to(rgba(192,192,192,0.9)));
+		-khtml-box-shadow:rgba(192,192,192,0.75) 0px 8px 24px;
+		-moz-box-shadow:rgba(192,192,192,0.75) 0px 8px 24px;
+		box-shadow:rgba(192,192,192,0.75) 0px 8px 24px;
+	}
+ 
+	#shiny-demo-1:hover {
+		border-color:#6699cc;
+		background-color:rgba(64,128,192,0.75);
+		background-image:-webkit-gradient(linear, 0% 0%, 0% 90%, from(rgba(16,96,192,0.75)), to(rgba(96,192,255,0.9)));
+		background-image:-moz-linear-gradient(top,bottom,from(rgba(16,96,192,0.75)), to(rgba(96,192,255,0.9)));
+		-khtml-box-shadow:rgba(128,192,255,0.75) 0px 8px 24px;
+		-moz-box-shadow:rgba(128,192,255,0.75) 0px 8px 24px;
+		box-shadow:rgba(128,192,255,0.75) 0px 8px 24px;
+		margin-right:1.5em;
+	}
+	
+	#shiny-demo-1,
+	#shiny-demo-2 {
+		margin-right:1.5em;
+		margin-right:1.5em;
+	}
+	
+	#shiny-demo-2:hover {
+		border-color:#aa7777;
+		background-color:rgba(255,0,0,0.75);
+		background-image:-webkit-gradient(linear, 0% 0%, 0% 90%, from(rgba(128,64,64,0.75)), to(rgba(256,128,128,0.9)));
+		background-image:-moz-linear-gradient(top,bottom,from(rgba(128,64,64,0.75)), to(rgba(192,128,128,0.9)));
+		-khtml-box-shadow:rgba(256,128,128,0.5) 0px 8px 24px;
+		-moz-box-shadow:rgba(256,128,128,0.5) 0px 8px 24px;
+		box-shadow:rgba(256,128,128,0.5) 0px 8px 24px;
+	}
+	
+	#shiny-demo-3:hover {
+		border-color:#77cc77;
+		background-color:rgba(0,128,0,0.75);
+		background-image:-webkit-gradient(linear, 0% 0%, 0% 90%, from(rgba(64,128,64,0.75)), to(rgba(128,255,128,0.9)));
+		background-image:-moz-linear-gradient(top,bottom,from(rgba(64,128,64,0.75)), to(rgba(128,192,128,0.9)));
+		-khtml-box-shadow:rgba(128,256,128,0.6) 0px 8px 24px;
+		-moz-box-shadow:rgba(128,256,128,0.6) 0px 8px 24px;
+		box-shadow:rgba(128,256,128,0.6) 0px 8px 24px;
+	}
+ 	
+	#shiny-demo-4:hover {
+		border-color:#cccc77;
+		background-color:rgba(128,128,0,0.75);
+		background-image:-webkit-gradient(linear, 0% 0%, 0% 90%, from(rgba(128,128,64,0.75)), to(rgba(255,255,128,0.9)));
+		background-image:-moz-linear-gradient(top,bottom,from(rgba(128,128,64,0.75)), to(rgba(255,255,128,0.9)));
+		-khtml-box-shadow:rgba(255,256,128,0.6) 0px 8px 24px;
+		-moz-box-shadow:rgba(255,256,128,0.6) 0px 8px 24px;
+		box-shadow:rgba(255,256,128,0.6) 0px 8px 24px;
+	}
