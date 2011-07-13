@@ -94,18 +94,16 @@
 			</script>
 		</div>
 		<div style='clear:both;'></div>
-		<div id='links'>
+		<div id='badges'>
 			<?php linkButton('http://projects.springlobby.info/projects/springlobby/issues/new','Report a problem') ?>
 			<?php linkButton('http://projects.springlobby.info/projects/springlobby/wiki','Wiki') ?>
 			<?php linkButton('http://projects.springlobby.info/projects/springlobby/wiki/Contact','Contact') ?>
 			<?php linkButton('http://projects.springlobby.info/embedded/springlobby/index.html','Changelog') ?>
-				<div class="link"><a href="../releases.xml"><img alt="rss feed" style="border:none;" src="rss.png" /></a></div>
-		</div>
-		<br/>
-		<div id='badges'>
-<!-- 			<center> -->
-				<script type="text/javascript" src="http://www.ohloh.net/p/11953/widgets/project_partner_badge.js"></script>
-<!-- 			</center> -->
+			<div class="link"><a href="../releases.xml"><img alt="rss feed" style="border:none;" src="rss.png" /></a></div>
+			<div style='clear:both;'></div>
+			<a href="http://validator.w3.org/check?uri=referer">
+				<img src="valid-xhtml11-blue" alt="Valid XHTML 1.1" height="31" width="88" /></a>&nbsp;
+			<script type="text/javascript" src="http://www.ohloh.net/p/11953/widgets/project_partner_badge.js"></script>
 		</div>
 	</div>
 
