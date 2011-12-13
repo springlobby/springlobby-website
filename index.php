@@ -35,21 +35,21 @@
 			<div class='download'>
 				<a href="<?php echo $win->link();?>" >
 				<span class="shiny-demo-1 demo-button">
-					<img alt="Windows Download" src="/landing/dl.png" ></img>Get <?php echo $win->version;?> for Windows
+					<img alt="Windows Download" src="/landing/dl.png" />Get <?php echo $win->version;?> for Windows
 				</span> 
 				</a>
 			</div>
 			<div class='download'>
 				<a href="<?php echo $sauce->link();?>" >
 				<span class="shiny-demo-3 demo-button">
-					<img alt="Source Download" src="/landing/dl.png" ></img>Get <?php echo $sauce->version;?> source
+					<img alt="Source Download" src="/landing/dl.png" />Get <?php echo $sauce->version;?> source
 				</span> 
 				</a>
 			</div>
 			<div class='download'>
 				<a href="http://projects.springlobby.info/projects/springlobby/wiki/Install" >
 				<span class="shiny-demo-2 demo-button">
-					<img alt="Linux Packages" src="/landing/info.png" ></img>Linux packages
+					<img alt="Linux Packages" src="/landing/info.png" />Linux packages
 				</span> 
 				</a>
 			</div>
@@ -101,7 +101,7 @@
 			<?php linkButton('http://projects.springlobby.info/embedded/springlobby/index.html','Changelog') ?>
 			<div class="link"><a href="../releases.xml"><img alt="rss feed" style="border:none;" src="rss.png" /></a></div>
 			<div style='clear:both;'></div>
-			<a href="http://validator.w3.org/check?uri=referer">
+			<a href="http://validator.w3.org/check?uri=referer" >
 				<img src="valid-xhtml11-blue" alt="Valid XHTML 1.1" height="31" width="88" /></a>&nbsp;
 			<script type="text/javascript" src="http://www.ohloh.net/p/11953/widgets/project_partner_badge.js"></script>
 		</div>
