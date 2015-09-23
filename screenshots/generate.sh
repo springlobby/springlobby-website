@@ -1,4 +1,5 @@
+#!/bin/sh
 for file in *.png
 do
-  convert -resize 150 "$file" thumbs/"$file"
+  convert -thumbnail 150 -strip "$file" thumbs/"$file"
 done
