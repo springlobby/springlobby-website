@@ -21,7 +21,6 @@
 		<script type="text/javascript">
 			TopUp.images_path = "images/top_up/";
 		</script>
-		<script type="text/javascript" src="http://apis.google.com/js/plusone.js"></script>
 	</head>
 <body>
 	<div id='header'>
@@ -54,13 +53,6 @@
 		</div>
 		<div id='description'>
 			<p>SpringLobby is a free cross-platform lobby client for the <a href='https://springrts.com/'>Spring RTS project</a>.
-				<script type="text/javascript">
-					//<![CDATA[
-					(function() {
-					document.write('<g:plusone size="small" href="http://springlobby.info"></g:plusone>');
-					})();
-					//]]>
-				</script>
 			</p>
 			<div id="screenshots">
 				<?php
@@ -101,7 +93,6 @@
 			<div style='clear:both;'></div>
 			<a href="http://validator.w3.org/check?uri=referer" >
 				<img src="valid-xhtml11-blue" alt="Valid XHTML 1.1" height="31" width="88" /></a>&nbsp;
-			<script type="text/javascript" src="http://www.ohloh.net/p/11953/widgets/project_partner_badge.js"></script>
 		</div>
 	</div>
 
