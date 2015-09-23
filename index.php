@@ -16,11 +16,9 @@
 		<title>SpringLobby.info</title>
 		<link rel="stylesheet" href="/landing/style.css" type="text/css" media="screen" />
 		<link rel="alternate" type="application/rss+xml" title="SpringLobby release feed" href="http://springlobby.info/releases.xml" />
-		<script type="text/javascript" src="/landing/javascripts/jquery/*.js"></script>
 
 		<script type="text/javascript" src="/landing/javascripts/top_up-min.js"></script>
 		<script type="text/javascript">
-// 			TopUp.host = "http://www.anotherwebsite.com/";
 			TopUp.images_path = "/landing/screenshots/";
 		</script>
 		<script type="text/javascript" src="http://apis.google.com/js/plusone.js"></script>
