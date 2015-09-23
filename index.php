@@ -19,6 +19,16 @@
 		<link rel="alternate" type="application/rss+xml" title="SpringLobby release feed" href="http://springlobby.info/releases.xml" />
 
 		<script type="text/javascript" src="javascripts/top_up-min.js"></script>
+		<script type="text/javascript">
+			TopUp.addPresets({
+				"#screenshots a": {
+				title: "SpringLobby screenshots {alt} ({current} of {total})",
+				group: "screenshots",
+				readAltText: 1,
+				shaded: 1
+				}
+			});
+		</script>
 	</head>
 <body>
 	<div id='header'>
@@ -70,16 +80,6 @@
 						printf( '<a href="%s/%s" ><img alt="Screenshot" src="%s/thumbs/%s" /></a>', $path,$entry, $path, $entry );
 				?>
 			</div>
-			<script type="text/javascript">
-				TopUp.addPresets({
-					"#screenshots a": {
-					title: "SpringLobby screenshots {alt} ({current} of {total})",
-					group: "screenshots",
-					readAltText: 1,
-					shaded: 1
-					}
-				});
-			</script>
 		</div>
 		<div style='clear:both;'></div>
 		<div id='badges'>
