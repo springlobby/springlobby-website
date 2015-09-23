@@ -53,7 +53,7 @@
 			</div>
 		</div>
 		<div id='description'>
-			<p>SpringLobby is a free cross-platform lobby client for the <a href='http://springrts.com/'>Spring RTS project</a>.
+			<p>SpringLobby is a free cross-platform lobby client for the <a href='https://springrts.com/'>Spring RTS project</a>.
 				<script type="text/javascript">
 					//<![CDATA[
 					(function() {
