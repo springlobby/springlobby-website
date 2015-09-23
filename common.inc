@@ -27,4 +27,3 @@ class SrcRelease extends Release {
 		return $this->linkBase('gz');
 	}
 }
-?>
