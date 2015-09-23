@@ -91,7 +91,7 @@
 			<div class="link"><a href="../releases.xml"><img alt="rss feed" style="border:none;" src="rss.png" /></a></div>
 			<div style='clear:both;'></div>
 			<a href="http://validator.w3.org/check?uri=referer" >
-				<img src="valid-xhtml11-blue" alt="Valid XHTML 1.1" height="31" width="88" /></a>&nbsp;
+				<img src="valid-xhtml11-blue.png" alt="Valid XHTML 1.1" height="31" width="88" /></a>&nbsp;
 		</div>
 	</div>
 
