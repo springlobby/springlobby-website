@@ -1,7 +1,7 @@
 <?php
 abstract class Release {
 	public $version;
-	protected $basedir = '/home/www-data/springlobby.info/';
+	protected $basedir = '/data/www/springlobby.info/';
 	protected $baseurl = 'http://springlobby.info/';
 	abstract public function link();
 	function __construct() {

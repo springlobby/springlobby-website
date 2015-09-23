@@ -47,7 +47,7 @@
 				</a>
 			</div>
 			<div class='download'>
-				<a href="http://projects.springlobby.info/projects/springlobby/wiki/Install" >
+				<a href="https://github.com/springlobby/springlobby/wiki/Install">
 				<span class="shiny-demo-2 demo-button">
 					<img alt="Linux Packages" src="/landing/info.png" />Linux packages
 				</span> 
@@ -95,10 +95,10 @@
 		</div>
 		<div style='clear:both;'></div>
 		<div id='badges'>
-			<?php linkButton('http://projects.springlobby.info/projects/springlobby/issues/new','Report a problem') ?>
-			<?php linkButton('http://projects.springlobby.info/projects/springlobby/wiki','Wiki') ?>
-			<?php linkButton('http://projects.springlobby.info/projects/springlobby/wiki/Contact','Contact') ?>
-			<?php linkButton('http://projects.springlobby.info/embedded/springlobby/index.html','Changelog') ?>
+			<?php linkButton('https://github.com/springlobby/springlobby/issues/new', 'Report a problem') ?>
+			<?php linkButton('https://github.com/springlobby/springlobby/wiki', 'Wiki') ?>
+			<?php linkButton('http://github.com/springlobby/springlobby/wiki/Contact', 'Contact') ?>
+			<?php linkButton('http://springlobby.info/changelog.html', 'Changelog') ?>
 			<div class="link"><a href="../releases.xml"><img alt="rss feed" style="border:none;" src="rss.png" /></a></div>
 			<div style='clear:both;'></div>
 			<a href="http://validator.w3.org/check?uri=referer" >
@@ -107,22 +107,5 @@
 		</div>
 	</div>
 
-<!-- Piwik --> 
-<script type="text/javascript">
-var pkBaseURL = (("https:" == document.location.protocol) ? "https://piwik.graasmilk.net/" : "http://piwik.graasmilk.net/");
-document.write(unescape("%3Cscript src='" + pkBaseURL + "piwik.js' type='text/javascript'%3E%3C/script%3E"));
-</script><script type="text/javascript">
-try {
-var piwikTracker = Piwik.getTracker(pkBaseURL + "piwik.php", 1);
-piwikTracker.trackPageView();
-piwikTracker.enableLinkTracking();
-} catch( err ) {
-
-}
-</script><noscript><p><img src="http://piwik.graasmilk.net/piwik.php?idsite=1" style="border:0" alt="" /></p></noscript>
-<!-- End Piwik Tracking Code -->
-<!-- Piwik Image Tracker -->
-<div><img src="http://piwik.graasmilk.net/piwik.php?idsite=1&amp;rec=1" style="border:0" alt="" /></div>
-<!-- End Piwik -->
 </body>
 </html>

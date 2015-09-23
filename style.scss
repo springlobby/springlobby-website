@@ -49,9 +49,14 @@ body {
 .demo-button img {
 	border:none;
 }
+
 #badges {
 	text-align: center;
 }
+
+	a img { text-decoration: none; border:0 px; }
+	a:visited { text-decoration: none; border:0 px; }
+	
 #screenshots img { 
 	padding: 10px;
 	border: none;
