@@ -1,5 +1,5 @@
 <?php 
-	require_once('common.inc');
+	require_once('common.php');
 	$win = new WinRelease();
 	$sauce = new SrcRelease();
 	
