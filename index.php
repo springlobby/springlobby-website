@@ -95,8 +95,8 @@
 		<div id='badges'>
 			<?php linkButton('https://github.com/springlobby/springlobby/issues/new', 'Report a problem') ?>
 			<?php linkButton('https://github.com/springlobby/springlobby/wiki', 'Wiki') ?>
-			<?php linkButton('http://github.com/springlobby/springlobby/wiki/Contact', 'Contact') ?>
-			<?php linkButton('http://springlobby.info/changelog.html', 'Changelog') ?>
+			<?php linkButton('https://github.com/springlobby/springlobby/wiki/Contact', 'Contact') ?>
+			<?php linkButton('https://github.com/springlobby/springlobby/blob/master/ChangeLog', 'Changelog') ?>
 			<div class="link"><a href="../releases.xml"><img alt="rss feed" style="border:none;" src="rss.png" /></a></div>
 			<div style='clear:both;'></div>
 			<a href="http://validator.w3.org/check?uri=referer" >
