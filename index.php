@@ -14,12 +14,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="de">
 	<head>
 		<title>SpringLobby.info</title>
-		<link rel="stylesheet" href="/landing/style.css" type="text/css" media="screen" />
+		<link rel="stylesheet" href="style.css" type="text/css" media="screen" />
 		<link rel="alternate" type="application/rss+xml" title="SpringLobby release feed" href="http://springlobby.info/releases.xml" />
 
-		<script type="text/javascript" src="/landing/javascripts/top_up-min.js"></script>
+		<script type="text/javascript" src="javascripts/top_up-min.js"></script>
 		<script type="text/javascript">
-			TopUp.images_path = "/landing/screenshots/";
+			TopUp.images_path = "images/top_up/";
 		</script>
 		<script type="text/javascript" src="http://apis.google.com/js/plusone.js"></script>
 	</head>
@@ -33,21 +33,21 @@
 			<div class='download'>
 				<a href="<?php echo $win->link();?>" >
 				<span class="shiny-demo-1 demo-button">
-					<img alt="Windows Download" src="/landing/dl.png" />Get <?php echo $win->version;?> for Windows
+					<img alt="Windows Download" src="dl.png" />Get <?php echo $win->version;?> for Windows
 				</span> 
 				</a>
 			</div>
 			<div class='download'>
 				<a href="<?php echo $sauce->link();?>" >
 				<span class="shiny-demo-3 demo-button">
-					<img alt="Source Download" src="/landing/dl.png" />Get <?php echo $sauce->version;?> source
+					<img alt="Source Download" src="dl.png" />Get <?php echo $sauce->version;?> source
 				</span> 
 				</a>
 			</div>
 			<div class='download'>
 				<a href="https://github.com/springlobby/springlobby/wiki/Install">
 				<span class="shiny-demo-2 demo-button">
-					<img alt="Linux Packages" src="/landing/info.png" />Linux packages
+					<img alt="Linux Packages" src="info.png" />Linux packages
 				</span> 
 				</a>
 			</div>
