@@ -17,6 +17,7 @@
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 		<link rel="stylesheet" href="style.css" type="text/css" media="screen" />
 		<link rel="alternate" type="application/rss+xml" title="SpringLobby release feed" href="http://springlobby.info/releases.xml" />
+		<link rel="shortcut icon" href="favicon.ico" type="image/vnd.microsoft.icon" />
 
 		<script type="text/javascript" src="javascripts/top_up-min.js"></script>
 		<script type="text/javascript">
