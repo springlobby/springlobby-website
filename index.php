@@ -13,7 +13,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="de">
 	<head>
-		<title>SpringLobby.info</title>
+		<title>SpringLobby - the lobby client for the spring rts engine!</title>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 		<link rel="stylesheet" href="style.css" type="text/css" media="screen" />
 		<link rel="alternate" type="application/rss+xml" title="SpringLobby release feed" href="https://github.com/springlobby/springlobby/tags.atom" />
@@ -91,10 +91,12 @@
 		</div>
 		<div style='clear:both;'></div>
 		<div id='badges'>
-			<?php linkButton('https://github.com/springlobby/springlobby/blob/master/ChangeLog', 'Changelog') ?>
-			<?php linkButton('https://github.com/springlobby/springlobby/issues/new', 'Report a problem') ?>
-			<?php linkButton('https://github.com/springlobby/springlobby/wiki', 'Wiki') ?>
-			<?php linkButton('https://github.com/springlobby/springlobby/wiki/Contact', 'Contact') ?>
+			<?php
+			linkButton('https://github.com/springlobby/springlobby/blob/master/ChangeLog', 'Changelog');
+			linkButton('https://github.com/springlobby/springlobby/issues/new', 'Report a problem');
+			linkButton('https://github.com/springlobby/springlobby/wiki', 'Wiki');
+			linkButton('https://github.com/springlobby/springlobby/wiki/Contact', 'Contact');
+			?>
 			<div class="link"><a href="https://github.com/springlobby/springlobby/tags.atom"><img alt="rss feed" style="border:none;" src="rss.png" /></a></div>
 		</div>
 	</div>
