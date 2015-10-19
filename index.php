@@ -37,33 +37,11 @@
 	</div>
 	<div id='main'>
 		
-		<div id='downloads_wrapper'>
-			<div class='download'>
-				<a href="<?php echo $win->link();?>" >
-				<span class="shiny-demo-1 demo-button">
-					<img alt="Windows Download" src="dl.png" />Get <?php echo $win->version;?> for Windows
-				</span> 
-				</a>
-			</div>
-			<div class='download'>
-				<a href="<?php echo $sauce->link();?>" >
-				<span class="shiny-demo-3 demo-button">
-					<img alt="Source Download" src="dl.png" />Get <?php echo $sauce->version;?> source
-				</span> 
-				</a>
-			</div>
-			<div class='download'>
-				<a href="https://github.com/springlobby/springlobby/wiki/Install">
-				<span class="shiny-demo-2 demo-button">
-					<img alt="Linux Packages" src="info.png" />Linux packages
-				</span> 
-				</a>
-			</div>
-		</div>
 		<div id='description'>
 			<p>SpringLobby is a free cross-platform lobby client for the <a href='https://springrts.com/'>Spring RTS project</a>.
 			</p>
 			<div id="screenshots">
+			<h1>Screenshots</h1>
 				<?php
 					$files = array();
 					$path = "screenshots";
@@ -81,13 +59,42 @@
 						printf( '<a href="%s/%s" ><img alt="Screenshot" src="%s/thumbs/%s" /></a>', $path,$entry, $path, $entry );
 				?>
 			</div>
+			<h1>Download SpringLobby</h1>
+			<div class='download'>
+			<a href="http://springlobby.info/windows/SpringLobby-<?php echo $win->version; ?>.exe".exe" >
+				<span class="shiny-demo-1 demo-button">
+				<img alt="Windows Installer" src="dl.png" />Windows installer (<?php echo $win->version; ?>)
+				</span> 
+				</a>
+			</div>
+			<div class='download'>
+				<a href="<?php echo $win->link();?>" >
+				<span class="shiny-demo-1 demo-button">
+					<img alt="Windows Download" src="dl.png" />Windows portable (<?php echo $win->version;?>)
+				</span> 
+				</a>
+			</div>
+			<div class='download'>
+				<a href="<?php echo $sauce->link();?>" >
+				<span class="shiny-demo-3 demo-button">
+					<img alt="Source Download" src="dl.png" />Source Code (<?php echo $sauce->version;?>)
+				</span> 
+				</a>
+			</div>
+			<div class='download'>
+				<a href="https://github.com/springlobby/springlobby/wiki/Install">
+				<span class="shiny-demo-2 demo-button">
+					<img alt="Linux Packages" src="info.png" />Linux install instructions
+				</span> 
+				</a>
+			</div>
 		</div>
 		<div style='clear:both;'></div>
 		<div id='badges'>
+			<?php linkButton('https://github.com/springlobby/springlobby/blob/master/ChangeLog', 'Changelog') ?>
 			<?php linkButton('https://github.com/springlobby/springlobby/issues/new', 'Report a problem') ?>
 			<?php linkButton('https://github.com/springlobby/springlobby/wiki', 'Wiki') ?>
 			<?php linkButton('https://github.com/springlobby/springlobby/wiki/Contact', 'Contact') ?>
-			<?php linkButton('https://github.com/springlobby/springlobby/blob/master/ChangeLog', 'Changelog') ?>
 			<div class="link"><a href="https://github.com/springlobby/springlobby/tags.atom"><img alt="rss feed" style="border:none;" src="rss.png" /></a></div>
 		</div>
 	</div>
