@@ -9,6 +9,7 @@
 <head>
 	<title>SpringLobby</title>
 	<meta charset="utf-8">
+	<link rel="alternate" type="application/rss+xml" title="SpringLobby release feed" href="https://github.com/springlobby/springlobby/tags.atom" />
 	<link rel="stylesheet" href="styles.css" type="text/css" />
 	<link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16">
 	<link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32">
@@ -38,16 +39,16 @@
 	<p>SpringLobby is a free cross-platform lobby client for the <a href='https://springrts.com/'>Spring RTS project</a>.</p>
 	<div id="screenshots">
 		<h2>Screenshots</h2>
-				<a href="screenshots/01.png" class="fancybox" ><img src="thumbnails/tn_01.png" alt=""></a>
-				<a href="screenshots/02.png" class="fancybox" ><img src="thumbnails/tn_02.png" alt=""></a>
-				<a href="screenshots/03.png" class="fancybox" ><img src="thumbnails/tn_03.png" alt=""></a>
-				<a href="screenshots/04.png" class="fancybox" ><img src="thumbnails/tn_04.png" alt=""></a>
-				<a href="screenshots/05.png" class="fancybox" ><img src="thumbnails/tn_05.png" alt=""></a>
-				<a href="screenshots/06.png" class="fancybox" ><img src="thumbnails/tn_06.png" alt=""></a>
-				<a href="screenshots/07.png" class="fancybox" ><img src="thumbnails/tn_07.png" alt=""></a>
-				<a href="screenshots/08.png" class="fancybox" ><img src="thumbnails/tn_08.png" alt=""></a>
-				<a href="screenshots/09.png" class="fancybox" ><img src="thumbnails/tn_09.png" alt=""></a>
-				<a href="screenshots/10.png" class="fancybox" ><img src="thumbnails/tn_10.png" alt=""></a>
+			<a href="screenshots/01.png" class="fancybox" ><img src="thumbnails/tn_01.png" alt=""></a>
+			<a href="screenshots/02.png" class="fancybox" ><img src="thumbnails/tn_02.png" alt=""></a>
+			<a href="screenshots/03.png" class="fancybox" ><img src="thumbnails/tn_03.png" alt=""></a>
+			<a href="screenshots/04.png" class="fancybox" ><img src="thumbnails/tn_04.png" alt=""></a>
+			<a href="screenshots/05.png" class="fancybox" ><img src="thumbnails/tn_05.png" alt=""></a>
+			<a href="screenshots/06.png" class="fancybox" ><img src="thumbnails/tn_06.png" alt=""></a>
+			<a href="screenshots/07.png" class="fancybox" ><img src="thumbnails/tn_07.png" alt=""></a>
+			<a href="screenshots/08.png" class="fancybox" ><img src="thumbnails/tn_08.png" alt=""></a>
+			<a href="screenshots/09.png" class="fancybox" ><img src="thumbnails/tn_09.png" alt=""></a>
+			<a href="screenshots/10.png" class="fancybox" ><img src="thumbnails/tn_10.png" alt=""></a>
 	</div>
 	<h2>Download SpringLobby</h2>
 	<table id="download">
@@ -79,6 +80,7 @@
 		<li><a href="https://github.com/springlobby/springlobby/issues/new">Report a problem</a></li>
 		<li><a href="https://github.com/springlobby/springlobby/wiki">Wiki</a></li>
 		<li><a href="https://github.com/springlobby/springlobby/wiki/Contact">Contact</a></li>
+		<li><a href="https://github.com/springlobby/springlobby/tags.atom">RSS</a></li>
 </footer>
 
 </body>
