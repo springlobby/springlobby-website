@@ -3,7 +3,7 @@
 	$win = new WinRelease();
 	$sauce = new SrcRelease();
 ?>
-<?php echo '<?xml version="1.0" encoding="UTF-8"?>' ?>
+<?php echo '<?xml version="1.0" encoding="UTF-8"'?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -33,13 +33,13 @@
 
 <body>
 <header>
-	<h1>SpringLobby</h1>
+	<h2>SpringLobby</h2>
 </header>
 
 <section>
 	<p id="description">SpringLobby is a free cross-platform lobby client for the <a href='https://springrts.com/'>Spring RTS project</a>.</p>
 	<div id="screenshots">
-		<h2>Screenshots</h2>
+		<h3>Screenshots</h3>
 			<a href="screenshots/01.png" class="fancybox" rel="gallery1" ><img src="thumbnails/tn_01.png" alt=""></a>
 			<a href="screenshots/02.png" class="fancybox" rel="gallery1" ><img src="thumbnails/tn_02.png" alt=""></a>
 			<a href="screenshots/03.png" class="fancybox" rel="gallery1" ><img src="thumbnails/tn_03.png" alt=""></a>
@@ -51,7 +51,7 @@
 			<a href="screenshots/09.png" class="fancybox" rel="gallery1" ><img src="thumbnails/tn_09.png" alt=""></a>
 			<a href="screenshots/10.png" class="fancybox" rel="gallery1" ><img src="thumbnails/tn_10.png" alt=""></a>
 	</div>
-	<h2>Download SpringLobby</h2>
+	<h3>Download SpringLobby</h3>
 	<table id="download">
 		<th>Windows</th>
 		<th>Linux</th>
