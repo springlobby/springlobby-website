@@ -1,5 +1,5 @@
 body {
-	background-image: url("background.jpg");
+	background-image: url("background.jpg");/* Background picture comming from : http://www.planwallpaper.com/ */
 	background-attachment: fixed;
 	margin: 0;
 	line-height: 1em;
@@ -24,7 +24,7 @@ body {
 }
 
 #screenshots img:hover{
-	border-color: #31ce87;
+	border-color: #38a88f;
 }
 
 table{
@@ -37,7 +37,7 @@ table{
 
 table li{
 	list-style:none;
-	background: #31ce87;
+	background: #38a88f;
 	padding: 20px;
 	margin: 30px;
 	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2), 0px 6px 20px 0px rgba(0, 0, 0, 0.19);
@@ -53,7 +53,7 @@ table li:hover{
 }
 
 table li:hover a{
-	color: #31ce87;
+	color: #38a88f;
 }
 
 footer{
@@ -76,11 +76,11 @@ footer li{
 
 footer li a{
 	text-decoration: none;
-	color: #31ce87;
+	color: #38a88f;
 }
 
 footer li:hover{
-	background: #31ce87;
+	background: #38a88f;
 }
 
 footer li:hover a{
