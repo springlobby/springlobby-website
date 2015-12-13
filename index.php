@@ -1,10 +1,10 @@
+<!DOCTYPE html>
+<html lang="en">
 <?php 
 	require_once('common.php');
 	$win = new WinRelease();
 	$sauce = new SrcRelease();
 ?>
-<!DOCTYPE html>
-<html lang="en">
 
 <head>
 	<title>SpringLobby</title>
