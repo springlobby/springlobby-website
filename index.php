@@ -37,7 +37,7 @@
 </header>
 
 <section>
-	<p>SpringLobby is a free cross-platform lobby client for the <a href='https://springrts.com/'>Spring RTS project</a>.</p>
+	<p id="description">SpringLobby is a free cross-platform lobby client for the <a href='https://springrts.com/'>Spring RTS project</a>.</p>
 	<div id="screenshots">
 		<h2>Screenshots</h2>
 			<a href="screenshots/01.png" class="fancybox" rel="gallery1" ><img src="thumbnails/tn_01.png" alt=""></a>
