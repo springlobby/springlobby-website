@@ -3,7 +3,6 @@
 	$win = new WinRelease();
 	$sauce = new SrcRelease();
 ?>
-<?php echo '<?xml version="1.0" encoding="UTF-8"'?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -53,35 +52,43 @@
 	</div>
 	<h3>Download SpringLobby</h3>
 	<table id="download">
+		<tr>
 		<th>Windows</th>
 		<th>Linux</th>
+		</tr>
 		<tr>
 			<td>
+				<ul>
 				<li>
-					<a href="http://springlobby.info/windows/SpringLobby-<?php echo $win->version; ?>.exe".exe" >Windows installer (<?php echo $win->version; ?>)</a>
+					<a href="http://springlobby.info/windows/SpringLobby-<?php echo $win->version; ?>.exe" >Windows installer (<?php echo $win->version; ?>)</a>
 				</li>
 				<li>
 					<a href="<?php echo $win->link();?>" >Windows portable (<?php echo $win->version; ?>)</a>
 				</li>
+				</ul>
 			</td>
 			<td>
+				<ul>
 				<li>
 					<a href="<?php echo $sauce->link();?>" >Source Code (<?php echo $sauce->version;?>)</a>
 				</li>
 				<li>
 					<a href="https://github.com/springlobby/springlobby/wiki/Install" >Linux install instructions</a>
 				</li>
+				</ul>
 			</td>
 		</tr>
 	</table>
 </section>
 
 <footer>
+	<ul>
 		<li><a href="https://github.com/springlobby/springlobby/blob/master/ChangeLog">Change Log</a></li>
 		<li><a href="https://github.com/springlobby/springlobby/issues/new">Report a problem</a></li>
 		<li><a href="https://github.com/springlobby/springlobby/wiki">Wiki</a></li>
 		<li><a href="https://github.com/springlobby/springlobby/wiki/Contact">Contact</a></li>
 		<li><a href="https://github.com/springlobby/springlobby/tags.atom">RSS</a></li>
+	</ul>
 </footer>
 
 </body>
