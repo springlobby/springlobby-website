@@ -2,104 +2,87 @@
 	require_once('common.php');
 	$win = new WinRelease();
 	$sauce = new SrcRelease();
-	
-	function linkButton($target,$text) {
-		echo '<div class="link"><a href="'.$target.'"><span class="shiny-demo-4 demo-button floater">
-				'.$text.'
-			</span></a></div>';
-	}
 ?>
-<?php echo '<?xml version="1.0" encoding="UTF-8" ?>' ?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="de">
-	<head>
-		<title>SpringLobby - the lobby client for the spring rts engine!</title>
-		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-		<link rel="stylesheet" href="style.css" type="text/css" media="screen" />
-		<link rel="alternate" type="application/rss+xml" title="SpringLobby release feed" href="https://github.com/springlobby/springlobby/tags.atom" />
-		<link rel="shortcut icon" href="favicon.ico" type="image/vnd.microsoft.icon" />
+<?php echo '<?xml version="1.0" encoding="UTF-8"'?>
+<!DOCTYPE html>
+<html lang="en">
 
-		<script type="text/javascript" src="javascripts/top_up-min.js"></script>
-		<script type="text/javascript">
-			TopUp.addPresets({
-				"#screenshots a": {
-				title: "SpringLobby screenshots {alt} ({current} of {total})",
-				group: "screenshots",
-				readAltText: 1,
-				shaded: 1
-				}
-			});
-		</script>
-	</head>
+<head>
+	<title>SpringLobby</title>
+	<meta charset="utf-8">
+	<link rel="alternate" type="application/rss+xml" title="SpringLobby release feed" href="https://github.com/springlobby/springlobby/tags.atom" />
+	<link rel="stylesheet" href="styles.css" type="text/css" />
+	<link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16">
+	<link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32">
+	<link rel="icon" type="image/png" href="favicon-96x96.png" sizes="96x96">
+	<link rel="icon" type="image/png" href="favicon-194x194.png" sizes="194x194">
+	<link rel="icon" type="image/png" href="android-chrome-192x192.png" sizes="192x192">
+	<meta name="msapplication-TileColor" content="#656565">
+	<meta name="msapplication-TileImage" content="mstile-144x144.png">
+	<meta name="msapplication-config" content="browserconfig.xml">
+	<!-- SCRIPT -->
+	<script type="text/javascript" src="fancybox/jquery-1.11.3.min.js"></script>
+	<link rel="stylesheet" href="fancybox/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
+	<script type="text/javascript" src="fancybox/jquery.fancybox.pack.js?v=2.1.5"></script>
+	<script type="text/javascript">
+	$(document).ready(function() {
+		$(".fancybox").fancybox();
+	});
+	</script>
+</head>
+
 <body>
-	<div id='header'>
-		<h1>SpringLobby</h1>
+<header>
+	<h2>SpringLobby</h2>
+</header>
+
+<section>
+	<p id="description">SpringLobby is a free cross-platform lobby client for the <a href='https://springrts.com/'>Spring RTS project</a>.</p>
+	<div id="screenshots">
+		<h3>Screenshots</h3>
+			<a href="screenshots/01.png" class="fancybox" rel="gallery1" ><img src="thumbnails/tn_01.png" alt=""></a>
+			<a href="screenshots/02.png" class="fancybox" rel="gallery1" ><img src="thumbnails/tn_02.png" alt=""></a>
+			<a href="screenshots/03.png" class="fancybox" rel="gallery1" ><img src="thumbnails/tn_03.png" alt=""></a>
+			<a href="screenshots/04.png" class="fancybox" rel="gallery1" ><img src="thumbnails/tn_04.png" alt=""></a>
+			<a href="screenshots/05.png" class="fancybox" rel="gallery1" ><img src="thumbnails/tn_05.png" alt=""></a>
+			<a href="screenshots/06.png" class="fancybox" rel="gallery1" ><img src="thumbnails/tn_06.png" alt=""></a>
+			<a href="screenshots/07.png" class="fancybox" rel="gallery1" ><img src="thumbnails/tn_07.png" alt=""></a>
+			<a href="screenshots/08.png" class="fancybox" rel="gallery1" ><img src="thumbnails/tn_08.png" alt=""></a>
+			<a href="screenshots/09.png" class="fancybox" rel="gallery1" ><img src="thumbnails/tn_09.png" alt=""></a>
+			<a href="screenshots/10.png" class="fancybox" rel="gallery1" ><img src="thumbnails/tn_10.png" alt=""></a>
 	</div>
-	<div id='main'>
-		
-		<div id='description'>
-			<p>SpringLobby is a free cross-platform lobby client for the <a href='https://springrts.com/'>Spring RTS project</a>.
-			</p>
-			<div id="screenshots">
-			<h1>Screenshots</h1>
-				<?php
-					$files = array();
-					$path = "screenshots";
-					$dir = opendir ($path);
-					while (false !== ($entry = readdir($dir))) 
-					{
-						if ( ! ( is_dir($entry) || $entry=='thumbs' || $entry=='generate.sh' ) )
-						{
-							array_push( $files, $entry );
-						}
-					}
-					closedir ($dir);
-					sort( $files );
-					foreach( $files as $entry )
-						printf( '<a href="%s/%s" ><img alt="Screenshot" src="%s/thumbs/%s" /></a>', $path,$entry, $path, $entry );
-				?>
-			</div>
-			<h1>Download SpringLobby</h1>
-			<div class='download'>
-			<a href="http://springlobby.info/windows/SpringLobby-<?php echo $win->version; ?>.exe".exe" >
-				<span class="shiny-demo-1 demo-button">
-				<img alt="Windows Installer" src="dl.png" />Windows installer (<?php echo $win->version; ?>)
-				</span> 
-				</a>
-			</div>
-			<div class='download'>
-				<a href="<?php echo $win->link();?>" >
-				<span class="shiny-demo-1 demo-button">
-					<img alt="Windows Download" src="dl.png" />Windows portable (<?php echo $win->version;?>)
-				</span> 
-				</a>
-			</div>
-			<div class='download'>
-				<a href="<?php echo $sauce->link();?>" >
-				<span class="shiny-demo-3 demo-button">
-					<img alt="Source Download" src="dl.png" />Source Code (<?php echo $sauce->version;?>)
-				</span> 
-				</a>
-			</div>
-			<div class='download'>
-				<a href="https://github.com/springlobby/springlobby/wiki/Install">
-				<span class="shiny-demo-2 demo-button">
-					<img alt="Linux Packages" src="info.png" />Linux install instructions
-				</span> 
-				</a>
-			</div>
-		</div>
-		<div style='clear:both;'></div>
-		<div id='badges'>
-			<?php
-			linkButton('https://github.com/springlobby/springlobby/blob/master/ChangeLog', 'Changelog');
-			linkButton('https://github.com/springlobby/springlobby/issues/new', 'Report a problem');
-			linkButton('https://github.com/springlobby/springlobby/wiki', 'Wiki');
-			linkButton('https://github.com/springlobby/springlobby/wiki/Contact', 'Contact');
-			?>
-			<div class="link"><a href="https://github.com/springlobby/springlobby/tags.atom"><img alt="rss feed" style="border:none;" src="rss.png" /></a></div>
-		</div>
-	</div>
+	<h3>Download SpringLobby</h3>
+	<table id="download">
+		<th>Windows</th>
+		<th>Linux</th>
+		<tr>
+			<td>
+				<li>
+					<a href="http://springlobby.info/windows/SpringLobby-<?php echo $win->version; ?>.exe".exe" >Windows installer (<?php echo $win->version; ?>)</a>
+				</li>
+				<li>
+					<a href="<?php echo $win->link();?>" >Windows portable (<?php echo $win->version; ?>)</a>
+				</li>
+			</td>
+			<td>
+				<li>
+					<a href="<?php echo $sauce->link();?>" >Source Code (<?php echo $sauce->version;?>)</a>
+				</li>
+				<li>
+					<a href="https://github.com/springlobby/springlobby/wiki/Install" >Linux install instructions</a>
+				</li>
+			</td>
+		</tr>
+	</table>
+</section>
+
+<footer>
+		<li><a href="https://github.com/springlobby/springlobby/blob/master/ChangeLog">Change Log</a></li>
+		<li><a href="https://github.com/springlobby/springlobby/issues/new">Report a problem</a></li>
+		<li><a href="https://github.com/springlobby/springlobby/wiki">Wiki</a></li>
+		<li><a href="https://github.com/springlobby/springlobby/wiki/Contact">Contact</a></li>
+		<li><a href="https://github.com/springlobby/springlobby/tags.atom">RSS</a></li>
+</footer>
 
 </body>
 </html>
