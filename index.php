@@ -25,7 +25,13 @@
 	<script type="text/javascript" src="fancybox/jquery.fancybox.pack.js?v=2.1.5"></script>
 	<script type="text/javascript">
 	$(document).ready(function() {
-		$(".fancybox").fancybox();
+		$(".fancybox").fancybox({
+			beforeShow: function() {
+				var alt = this.element.find('img').attr('alt');
+				this.inner.find('img').attr('alt', alt);
+				this.title = alt;
+			}
+		});
 	});
 	</script>
 </head>
@@ -39,16 +45,16 @@
 	<p id="description">SpringLobby is a free cross-platform lobby client for the <a href='https://springrts.com/'>Spring RTS project</a>.</p>
 	<div id="screenshots">
 		<h3>Screenshots</h3>
-			<a href="screenshots/01.png" class="fancybox" data-fancybox-group="group1" ><img src="thumbnails/tn_01.png" alt=""></a>
-			<a href="screenshots/02.png" class="fancybox" data-fancybox-group="group1" ><img src="thumbnails/tn_02.png" alt=""></a>
-			<a href="screenshots/03.png" class="fancybox" data-fancybox-group="group1" ><img src="thumbnails/tn_03.png" alt=""></a>
-			<a href="screenshots/04.png" class="fancybox" data-fancybox-group="group1" ><img src="thumbnails/tn_04.png" alt=""></a>
-			<a href="screenshots/05.png" class="fancybox" data-fancybox-group="group1" ><img src="thumbnails/tn_05.png" alt=""></a>
-			<a href="screenshots/06.png" class="fancybox" data-fancybox-group="group1" ><img src="thumbnails/tn_06.png" alt=""></a>
-			<a href="screenshots/07.png" class="fancybox" data-fancybox-group="group1" ><img src="thumbnails/tn_07.png" alt=""></a>
-			<a href="screenshots/08.png" class="fancybox" data-fancybox-group="group1" ><img src="thumbnails/tn_08.png" alt=""></a>
-			<a href="screenshots/09.png" class="fancybox" data-fancybox-group="group1" ><img src="thumbnails/tn_09.png" alt=""></a>
-			<a href="screenshots/10.png" class="fancybox" data-fancybox-group="group1" ><img src="thumbnails/tn_10.png" alt=""></a>
+			<a href="screenshots/01.png" class="fancybox" data-fancybox-group="group1" ><img src="thumbnails/tn_01.png" alt="0.243: Connect Dialog"></a>
+			<a href="screenshots/02.png" class="fancybox" data-fancybox-group="group1" ><img src="thumbnails/tn_02.png" alt="0.243: Map Dialog"></a>
+			<a href="screenshots/03.png" class="fancybox" data-fancybox-group="group1" ><img src="thumbnails/tn_03.png" alt="0.243: Battle List"></a>
+			<a href="screenshots/04.png" class="fancybox" data-fancybox-group="group1" ><img src="thumbnails/tn_04.png" alt="0.243: Battle Room"></a>
+			<a href="screenshots/05.png" class="fancybox" data-fancybox-group="group1" ><img src="thumbnails/tn_05.png" alt="0.243: Download List"></a>
+			<a href="screenshots/06.png" class="fancybox" data-fancybox-group="group1" ><img src="thumbnails/tn_06.png" alt="0.243: Preferences - Engine List"></a>
+			<a href="screenshots/07.png" class="fancybox" data-fancybox-group="group1" ><img src="thumbnails/tn_07.png" alt="0.243: Preferences - Downloads"></a>
+			<a href="screenshots/08.png" class="fancybox" data-fancybox-group="group1" ><img src="thumbnails/tn_08.png" alt="0.243: Preferences - Chat"></a>
+			<a href="screenshots/09.png" class="fancybox" data-fancybox-group="group1" ><img src="thumbnails/tn_09.png" alt="0.243: Preferences - General"></a>
+			<a href="screenshots/10.png" class="fancybox" data-fancybox-group="group1" ><img src="thumbnails/tn_10.png" alt="0.243: Preferences - Groups"></a>
 	</div>
 	<h3>Download SpringLobby</h3>
 	<table id="download">
