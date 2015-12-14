@@ -1,10 +1,10 @@
+<!DOCTYPE html>
+<html lang="en">
 <?php 
 	require_once('common.php');
 	$win = new WinRelease();
 	$sauce = new SrcRelease();
 ?>
-<!DOCTYPE html>
-<html lang="en">
 
 <head>
 	<title>SpringLobby</title>
@@ -39,16 +39,16 @@
 	<p id="description">SpringLobby is a free cross-platform lobby client for the <a href='https://springrts.com/'>Spring RTS project</a>.</p>
 	<div id="screenshots">
 		<h3>Screenshots</h3>
-			<a href="screenshots/01.png" class="fancybox" rel="gallery1" ><img src="thumbnails/tn_01.png" alt=""></a>
-			<a href="screenshots/02.png" class="fancybox" rel="gallery1" ><img src="thumbnails/tn_02.png" alt=""></a>
-			<a href="screenshots/03.png" class="fancybox" rel="gallery1" ><img src="thumbnails/tn_03.png" alt=""></a>
-			<a href="screenshots/04.png" class="fancybox" rel="gallery1" ><img src="thumbnails/tn_04.png" alt=""></a>
-			<a href="screenshots/05.png" class="fancybox" rel="gallery1" ><img src="thumbnails/tn_05.png" alt=""></a>
-			<a href="screenshots/06.png" class="fancybox" rel="gallery1" ><img src="thumbnails/tn_06.png" alt=""></a>
-			<a href="screenshots/07.png" class="fancybox" rel="gallery1" ><img src="thumbnails/tn_07.png" alt=""></a>
-			<a href="screenshots/08.png" class="fancybox" rel="gallery1" ><img src="thumbnails/tn_08.png" alt=""></a>
-			<a href="screenshots/09.png" class="fancybox" rel="gallery1" ><img src="thumbnails/tn_09.png" alt=""></a>
-			<a href="screenshots/10.png" class="fancybox" rel="gallery1" ><img src="thumbnails/tn_10.png" alt=""></a>
+			<a href="screenshots/01.png" class="fancybox" data-fancybox-group="group1" ><img src="thumbnails/tn_01.png" alt=""></a>
+			<a href="screenshots/02.png" class="fancybox" data-fancybox-group="group1" ><img src="thumbnails/tn_02.png" alt=""></a>
+			<a href="screenshots/03.png" class="fancybox" data-fancybox-group="group1" ><img src="thumbnails/tn_03.png" alt=""></a>
+			<a href="screenshots/04.png" class="fancybox" data-fancybox-group="group1" ><img src="thumbnails/tn_04.png" alt=""></a>
+			<a href="screenshots/05.png" class="fancybox" data-fancybox-group="group1" ><img src="thumbnails/tn_05.png" alt=""></a>
+			<a href="screenshots/06.png" class="fancybox" data-fancybox-group="group1" ><img src="thumbnails/tn_06.png" alt=""></a>
+			<a href="screenshots/07.png" class="fancybox" data-fancybox-group="group1" ><img src="thumbnails/tn_07.png" alt=""></a>
+			<a href="screenshots/08.png" class="fancybox" data-fancybox-group="group1" ><img src="thumbnails/tn_08.png" alt=""></a>
+			<a href="screenshots/09.png" class="fancybox" data-fancybox-group="group1" ><img src="thumbnails/tn_09.png" alt=""></a>
+			<a href="screenshots/10.png" class="fancybox" data-fancybox-group="group1" ><img src="thumbnails/tn_10.png" alt=""></a>
 	</div>
 	<h3>Download SpringLobby</h3>
 	<table id="download">
