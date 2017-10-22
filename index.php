@@ -99,7 +99,7 @@
 					<a href="screenshots/10.png"
 					title="Spring Lobby Version 0.259: Preferences - Groups"
 					data-fancybox="screenshots"
-					data-caption="">
+					data-caption="Spring Lobby Version 0.259: Preferences - Groups">
 						<img src="thumbnails/tn_10.png"alt="">
 					</a>
 				</div>
