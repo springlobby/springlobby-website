@@ -1,5 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
+
+	<?php
+		require_once('common.php');
+		$win = new WinRelease();
+		$sauce = new SrcRelease();
+	?>
+
 	<head>
 		<title>SpringLobby</title>
 		<meta charset="utf-8">
@@ -57,11 +64,11 @@
 						<th>Linux</th>
 					</tr>
 					<tr>
-						<td><a href="#">Installer</a></td>
-						<td><a href="#">Source code</a><br></td>
+						<td><a href="http://springlobby.info/windows/SpringLobby-<?php echo $win->version; ?>.exe">Installer (<?php echo $win->version; ?>)</a></td>
+						<td><a href="<?php echo $sauce->link();?>">Source code (<?php echo $sauce->version;?>)</a><br></td>
 					</tr>
 					<tr>
-						<td><a href="#">Portable</a></td>
+						<td><a href="<?php echo $win->link();?>">Portable (<?php echo $win->version; ?>)</a></td>
 						<td><a href="https://github.com/springlobby/springlobby/wiki/Install">Instructions</a></td>
 					</tr>
 				</table>
