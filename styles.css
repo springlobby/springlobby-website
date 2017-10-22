@@ -22,8 +22,8 @@ a {
 a:hover {color: #80b1a6;}
 
 hr {
-	color: #38a88f;
-	border-color: #38a88f;
+	color: #2d2d2d;
+	border-color: #2d2d2d;
 	width: 60%;
 }
 
@@ -101,6 +101,16 @@ section {
 #screenshots div a {
 	margin: 0.5em;
 }
+
+#screenshots div a img {
+	border-radius: 4px;
+	transition: opacity 0.2s ease-in-out;
+}
+
+#screenshots div a img:hover {
+	opacity: 0.4;
+}
+
 
 #download table {
 	width: 50%;
