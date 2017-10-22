@@ -41,17 +41,67 @@
 				<h2 class="center">Screenshots</h2>
 				<hr>
 				<div>
-					<a href="screenshots/01.png" data-fancybox="screenshots" data-caption="Spring Lobby Version 0.243: Connect Dialog" ><img src="thumbnails/tn_01.png"alt=""></a>
-					<a href="screenshots/02.png" data-fancybox="screenshots" data-caption="Spring Lobby Version 0.243: Map Dialog"><img src="thumbnails/tn_02.png"alt=""></a>
-					<a href="screenshots/03.png" data-fancybox="screenshots" data-caption="Spring Lobby Version 0.243: Battle List"><img src="thumbnails/tn_03.png"alt=""></a>
-					<a href="screenshots/04.png" data-fancybox="screenshots" data-caption="Spring Lobby Version 0.243: Battle Room"><img src="thumbnails/tn_04.png"alt=""></a>
-					<a href="screenshots/05.png" data-fancybox="screenshots" data-caption="Spring Lobby Version 0.243: Download List"><img src="thumbnails/tn_05.png"alt=""></a>
+					<a href="screenshots/01.png"
+					title="Spring Lobby Version 0.243: Connect Dialog"
+					data-fancybox="screenshots"
+					data-caption="Spring Lobby Version 0.243: Connect Dialog" >
+						<img src="thumbnails/tn_01.png"alt="">
+					</a>
+					<a href="screenshots/02.png"
+					title="Spring Lobby Version 0.243: Map Dialog"
+					data-fancybox="screenshots"
+					data-caption="Spring Lobby Version 0.243: Map Dialog">
+						<img src="thumbnails/tn_02.png"alt="">
+					</a>
+					<a href="screenshots/03.png"
+					title="Spring Lobby Version 0.243: Battle List"
+					data-fancybox="screenshots"
+					data-caption="Spring Lobby Version 0.243: Battle List">
+						<img src="thumbnails/tn_03.png"alt="">
+					</a>
+					<a href="screenshots/04.png"
+					title="Spring Lobby Version 0.243: Battle Room"
+					data-fancybox="screenshots"
+					data-caption="Spring Lobby Version 0.243: Battle Room">
+						<img src="thumbnails/tn_04.png"alt="">
+					</a>
+					<a href="screenshots/05.png"
+					title="Spring Lobby Version 0.243: Download List"
+					data-fancybox="screenshots"
+					data-caption="Spring Lobby Version 0.243: Download List">
+						<img src="thumbnails/tn_05.png"alt="">
+					</a>
 					<div style="width: 100%;"></div>
-					<a href="screenshots/06.png" data-fancybox="screenshots" data-caption="Spring Lobby Version 0.243: Preferences - Engine List"><img src="thumbnails/tn_06.png"alt=""></a>
-					<a href="screenshots/07.png" data-fancybox="screenshots" data-caption="Spring Lobby Version 0.243: Preferences - Downloads"><img src="thumbnails/tn_07.png"alt=""></a>
-					<a href="screenshots/08.png" data-fancybox="screenshots" data-caption="Spring Lobby Version 0.243: Preferences - Chat"><img src="thumbnails/tn_08.png"alt=""></a>
-					<a href="screenshots/09.png" data-fancybox="screenshots" data-caption="Spring Lobby Version 0.243: Preferences - General"><img src="thumbnails/tn_09.png"alt=""></a>
-					<a href="screenshots/10.png" data-fancybox="screenshots" data-caption="Spring Lobby Version 0.243: Preferences - Groups"><img src="thumbnails/tn_10.png"alt=""></a>
+					<a href="screenshots/06.png"
+					title="Spring Lobby Version 0.243: Preferences - Engine List"
+					data-fancybox="screenshots"
+					data-caption="Spring Lobby Version 0.243: Preferences - Engine List">
+						<img src="thumbnails/tn_06.png"alt="">
+					</a>
+					<a href="screenshots/07.png"
+					title="Spring Lobby Version 0.243: Preferences - Downloads"
+					data-fancybox="screenshots"
+					data-caption="Spring Lobby Version 0.243: Preferences - Downloads">
+						<img src="thumbnails/tn_07.png"alt="">
+					</a>
+					<a href="screenshots/08.png"
+					title="Spring Lobby Version 0.243: Preferences - Chat"
+					data-fancybox="screenshots"
+					data-caption="Spring Lobby Version 0.243: Preferences - Chat">
+						<img src="thumbnails/tn_08.png"alt="">
+					</a>
+					<a href="screenshots/09.png"
+					title="Spring Lobby Version 0.243: Preferences - General"
+					data-fancybox="screenshots"
+					data-caption="Spring Lobby Version 0.243: Preferences - General">
+						<img src="thumbnails/tn_09.png"alt="">
+					</a>
+					<a href="screenshots/10.png"
+					title="Spring Lobby Version 0.243: Preferences - Groups"
+					data-fancybox="screenshots"
+					data-caption="">
+						<img src="thumbnails/tn_10.png"alt="">
+					</a>
 				</div>
 			</section>
 
