@@ -106,11 +106,13 @@ section {
 
 #screenshots div a img {
 	border-radius: 4px;
-	transition: opacity 0.2s ease-in-out;
+	border: 1px solid #e1e1e1;
+	transition: border 0.2s ease-in-out, opacity 0.2s ease-in-out;
 }
 
 #screenshots div a img:hover {
-	opacity: 0.4;
+	border-color: #38a88f;
+	opacity: 0.8;
 }
 
 
