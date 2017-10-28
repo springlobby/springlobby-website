@@ -1,5 +1,2 @@
-Background picture :
-http://www.planwallpaper.com/
-
 Fancybox :
-http://fancyapps.com/fancybox/
+https://github.com/fancyapps/fancybox

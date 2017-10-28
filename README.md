@@ -1,4 +1,3 @@
-# springlobby-website
-the website of http://springlobby.info/
+# SpringLobby website
 
-
+The website of [springlobby.info](http://springlobby.info)

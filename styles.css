@@ -1,88 +1,158 @@
-body {
-	background-image: url("background.jpg");/* Background picture comming from : http://www.planwallpaper.com/ */
-	background-attachment: fixed;
+/* Default */
+
+html, body {
 	margin: 0;
-	line-height: 1em;
-	text-align: center;
-	font: 100% Verdana;
+	padding: 0;
+	font-family: Verdana, Arial, sans-serif;
+	color: #2d2d2d;
+	min-width: 760px;
 }
 
-#description a{
-	color: #656565;
+* {
+	box-sizing: border-box;
+	vertical-align: top;
 }
 
-#screenshots{
-	background: #f1f1f1;
-	margin-top: 2%;
-	margin-bottom: 2%;
-	padding-bottom: 1%;
-}
-
-#screenshots img{
-	border: 3px solid grey;
-	border-radius: 5px;
-}
-
-#screenshots img:hover{
-	border-color: #38a88f;
-}
-
-table{
-	width:100%;
-	padding-bottom: 20px;
-	background: #f1f1f1;
-	text-align: center;
-}
-
-
-table li{
-	list-style:none;
-	background: #38a88f;
-	padding: 20px;
-	margin: 30px;
-	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2), 0px 6px 20px 0px rgba(0, 0, 0, 0.19);
-}
-
-table li a{
+a {
 	text-decoration: none;
-	color: #fff;
-}
-
-table li:hover{
-	background: #fff;
-}
-
-table li:hover a{
 	color: #38a88f;
+	transition: color 0.2s ease-in-out;
 }
 
-footer{
-	background: #5f5f5f;
-	position: relative;
-	bottom:0px;
-	height: auto;
+a:hover {color: #80b1a6;}
+
+hr {
+	color: #2d2d2d;
+	border-color: #2d2d2d;
+	width: 60%;
 }
 
-footer li{
-	list-style: none;
+.float-left {float: left;}
+.float-right {float: right;}
+
+.center {
+	text-align: center;
+}
+
+/* Header */
+
+header {
+	position: sticky;
+	top: 0;
+	height: 80px;
+	width: 100%;
+	background-color: #2d2d2d;
+}
+
+header #title {
+	color: #f1f1f1;
+	line-height: 80px;
+	font-size: 30px;
+	margin: 0 1em;
+	padding: 0;
+	transition: color 0.2s ease-in-out;
+}
+
+header #title:hover {
+	color: #80b1a6;
+}
+
+header nav {
+	display: flex;
+	justify-content: space-between;
+	height: 80px;
+	margin-right: 1em;
+}
+
+header nav a {
+	color: #f1f1f1;
+	line-height: 76px;
+	font-size: 20px;
+	margin: 2px 0.5em;
 	display: inline-block;
-	width: auto;
-	margin-left: 2%;
-	margin-right: 2%;
-	padding-left: 10px;
-	padding-right: 10px;
-	padding: 10px;
 }
 
-footer li a{
-	text-decoration: none;
-	color: #38a88f;
+header nav a::after {
+	content: "";
+	display: block;
+	width: 0%;
+	border-bottom: 2px solid #38a88f;
+	margin: 0 auto;
+	transition: width 0.2s ease-in-out;
 }
 
-footer li:hover{
+header nav a:hover:after {
+	width: 100%;
+}
+
+.container {
+	width: 100%;
+	padding: 1em;
+}
+
+section {
+	margin: 1em 0 2em 0;
+}
+
+#screenshots div {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+}
+
+#screenshots div a {
+	margin: 0.5em;
+}
+
+#screenshots div a img {
+	border-radius: 4px;
+	border: 1px solid #e1e1e1;
+	transition: border 0.2s ease-in-out, opacity 0.2s ease-in-out;
+}
+
+#screenshots div a img:hover {
+	border-color: #38a88f;
+	opacity: 0.8;
+}
+
+
+#download table {
+	width: 50%;
+	margin: 1em auto 2em auto;
+}
+
+#download th,
+#download td {
+	text-align:center;
+	vertical-align:top;
+}
+
+#download a {
+	border: 1px solid #e1e1e1;
+	display: block;
+	padding: 1em 0;
+	margin: 0.5em 1em;
+	background: #e6e6e6;
+	transition: border 0.5s ease-in-out;
+	font-weight: 600;
+}
+
+#download a:hover {
+	border: 1px solid #38a88f;
 	background: #38a88f;
+	color: #f1f1f1;
 }
 
-footer li:hover a{
-	color: #5f5f5f;
+footer {
+	width: 100%;
+	padding: 1em;
+}
+
+/* Fancybox custom CSS */
+
+.fancybox-image {
+	border-radius: 4px;
+}
+.fancybox-caption {
+	border: 0;
 }
