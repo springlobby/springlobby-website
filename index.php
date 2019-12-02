@@ -3,8 +3,7 @@
 
 	<?php
 		require_once('common.php');
-		$win = new WinRelease();
-		$sauce = new SrcRelease();
+		$rel = new Release();
 	?>
 
 	<head>
@@ -114,11 +113,11 @@
 						<th>Linux</th>
 					</tr>
 					<tr>
-						<td><a href="http://springlobby.info/windows/SpringLobby-<?php echo $win->version; ?>.exe">Installer (<?php echo $win->version; ?>)</a></td>
-						<td><a href="<?php echo $sauce->link();?>">Source code (<?php echo $sauce->version;?>)</a><br></td>
+						<td><a href="<?php echo $rel->win32installer();?>">Installer (<?php echo $rel->version; ?>)</a></td>
+						<td><a href="<?php echo $rel->link();?>">Source code (<?php echo $rel->version;?>)</a><br></td>
 					</tr>
 					<tr>
-						<td><a href="<?php echo $win->link();?>">ZIP (<?php echo $win->version; ?>)</a></td>
+						<td><a href="<?php echo $rel->link();?>">ZIP (<?php echo $rel->version; ?>)</a></td>
 						<td><a href="https://github.com/springlobby/springlobby/wiki/Install">Instructions</a></td>
 					</tr>
 				</table>

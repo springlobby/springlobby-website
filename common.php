@@ -1,31 +1,23 @@
 <?php
-abstract class Release {
+class Release {
 	public $version;
-	protected $basedir = '/data/www/springlobby.info/';
-	protected $baseurl = 'http://springlobby.info/';
-	abstract public function link();
+	protected $basedir = '/home/springlobby/www/dl/stable';
+	protected $baseurl = 'https://springlobby.springrts.com/dl/stable/';
 	function __construct() {
-		$content = file($this->basedir.'/version/current.txt');
+		$content = file($this->basedir.'/current.txt');
 		$this->version = trim($content[0]);
 	}
-}
-
-class WinRelease extends Release {
-	public function link() {
-		return $this->baseurl.'windows/springlobby-'.$this->version.'-win32.zip';
+	public function win32() {
+		return $this->baseurl.'springlobby-'.$this->version.'-win32.zip';
 	}
-}
-
-class SrcRelease extends Release {
-	private function linkBase($ext) {
-		return $this->baseurl.'tarballs/springlobby-'.$this->version.'.tar.'.$ext;
+	public function win32installer() {
+		return $this->baseurl.'springlobby-'.$this->version.'-win32.exe';
 	}
 	public function link() {
-		return $this->linkBase('bz2');
+		return $this->baseurl.'springlobby-'.$this->version.'.tar.bz2';
 	}
 	public function linkGZ() {
-		return $this->linkBase('gz');
+		return $this->baseurl.'springlobby-'.$this->version.'.tar.gz2';
 	}
 }
 
-?>
