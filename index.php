@@ -12,7 +12,7 @@
 		<link rel="alternate" type="application/rss+xml" title="SpringLobby release feed" href="https://github.com/springlobby/springlobby/tags.atom" />
 		<link rel="icon" href="favicon.png" type="image/png" sizes="64x64">
 		<!-- jquery 3.2.1 -->
-		<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+		<script src="fancybox/jquery-3.2.1.min.js"></script>
 		<!-- fancybox 3.1.25 -->
 		<link  href="fancybox/jquery.fancybox.min.css" rel="stylesheet">
 		<script src="fancybox/jquery.fancybox.min.js"></script>
