@@ -126,7 +126,7 @@
 		</div>
 
 		<footer class="center">
-			2017 | <a href="https://github.com/springlobby/springlobby-website">Website sources</a>
+			<?php echo date("Y");?> | <a href="https://github.com/springlobby/springlobby-website">Website sources</a>
 		</footer>
 
 		<script type="text/javascript">
