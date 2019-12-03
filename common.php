@@ -4,7 +4,7 @@ class Release {
 	protected $basedir = '/home/springlobby/www/dl/stable';
 	protected $baseurl = 'https://springlobby.springrts.com/dl/stable/';
 	function __construct() {
-		$content = file($this->basedir.'/current.txt');
+		$content = file($this->basedir.'/version.txt');
 		$this->version = trim($content[0]);
 	}
 	public function win32() {
