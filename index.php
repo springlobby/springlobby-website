@@ -24,7 +24,7 @@
 			<a id="title" href="http://springlobby.info" class="float-left">SpringLobby</a>
 			<nav class="float-right">
 				<a href="https://github.com/springlobby/springlobby/blob/master/ChangeLog">Change Log</a>
-				<a href="https://github.com/springlobby/springlobby/issues/new">Report a problem</a>
+				<a href="https://github.com/springlobby/springlobby/issues">Report a problem</a>
 				<a href="https://github.com/springlobby/springlobby/wiki">Wiki</a>
 				<a href="https://github.com/springlobby/springlobby/wiki/Contact">Contact</a>
 				<a href="https://github.com/springlobby/springlobby/tags.atom">RSS</a>
