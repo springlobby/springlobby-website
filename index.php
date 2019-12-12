@@ -117,7 +117,7 @@
 						<td><a href="<?php echo $rel->link();?>">Source code (<?php echo $rel->version;?>)</a><br></td>
 					</tr>
 					<tr>
-						<td><a href="<?php echo $rel->link();?>">ZIP (<?php echo $rel->version; ?>)</a></td>
+						<td><a href="<?php echo $rel->win32();?>">ZIP (<?php echo $rel->version; ?>)</a></td>
 						<td><a href="https://github.com/springlobby/springlobby/wiki/Install">Instructions</a></td>
 					</tr>
 				</table>
